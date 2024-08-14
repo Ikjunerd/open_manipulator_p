@@ -1,0 +1,103 @@
+﻿  kinematics.cpp
+c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\kinematics.cpp(92): warning C4267: '초기화 중': 'size_t'에서 'int8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\kinematics.cpp(247): warning C4267: '초기화 중': 'size_t'에서 'int8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\kinematics.cpp(515): warning C4267: '초기화 중': 'size_t'에서 'int8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\kinematics.cpp(783): warning C4267: '초기화 중': 'size_t'에서 'int8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\kinematics.cpp(1029): warning C4267: '초기화 중': 'size_t'에서 'int8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\kinematics.cpp(1488): warning C4267: '초기화 중': 'size_t'에서 'int8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  open_manipulator_p.cpp
+c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\dynamixel_sdk\group_handler.h(46): warning C4251: 'dynamixel::GroupHandler::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>'에서는 class 'dynamixel::GroupHandler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=uint8_t
+          ]
+  c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\robotis_manipulator_common.h(339): note: 'std::vector<uint8_t,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=uint8_t
+          ]
+c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\dynamixel_sdk\group_handler.h(47): warning C4251: 'dynamixel::GroupHandler::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'dynamixel::GroupHandler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\dynamixel_sdk\group_handler.h(47): note: 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\dynamixel_sdk\group_bulk_read.h(39): warning C4251: 'dynamixel::GroupBulkRead::address_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'dynamixel::GroupBulkRead'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\dynamixel_sdk\group_bulk_read.h(39): note: 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\dynamixel_sdk\group_bulk_read.h(40): warning C4251: 'dynamixel::GroupBulkRead::length_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'dynamixel::GroupBulkRead'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\dynamixel_sdk\group_bulk_read.h(39): note: 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\dynamixel_sdk\group_bulk_read.h(41): warning C4251: 'dynamixel::GroupBulkRead::error_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'dynamixel::GroupBulkRead'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\dynamixel_sdk\group_handler.h(47): note: 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\dynamixel_sdk\group_bulk_write.h(39): warning C4251: 'dynamixel::GroupBulkWrite::address_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'dynamixel::GroupBulkWrite'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\dynamixel_sdk\group_bulk_read.h(39): note: 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\dynamixel_sdk\group_bulk_write.h(40): warning C4251: 'dynamixel::GroupBulkWrite::length_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'dynamixel::GroupBulkWrite'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\dynamixel_sdk\group_bulk_read.h(39): note: 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\dynamixel_sdk\group_sync_read.h(39): warning C4251: 'dynamixel::GroupSyncRead::error_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'dynamixel::GroupSyncRead'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  c:\users\user\documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\open_manipulator_p\dynamixel_sdk\group_handler.h(47): note: 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  open_manipulator_p.vcxproj -> C:\Users\User\Documents\dev\isaac-sim-ext\omp-vive-ctrl\dll\x64\Release\open_manipulator_p.lib
